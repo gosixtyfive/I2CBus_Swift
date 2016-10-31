@@ -11,7 +11,6 @@ import Ci2c
 public enum I2CBusError : Error {
     case open(Int32)
     case close(Int32)
-    case closeNoFileOpen
     case io(Int32)
 }
 
